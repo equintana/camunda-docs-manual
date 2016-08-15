@@ -13,7 +13,7 @@ menu:
 ---
 
 Retrieves a report of completed tasks. When the report type is set to <code>count</code>, the report contains a list of
-task/process definition keys and the count of how many tasks where completed for the specified key in a given period.
+task/process definition keys and the count of how many tasks were completed for the specified key in a given period.
 When the report type is set to <code>duration</code>, the report contains a minimum, maximum and average duration value
 of all completed task instances in a given period.
 
@@ -35,7 +35,7 @@ GET `/history/task/report`
   <tr>
     <td>reportType</td>
     <td>
-      <b>Mandatory.</b> Specifies the kind of the report to execute. In order to retrieve a report about the duration
+      <b>Mandatory.</b> Specifies the kind of the report to execute. To retrieve a report about the duration
       of process instances the value must be set to <code>duration</code>. For a report of the completed tasks in a
       specific timespan the value must be set to <code>count</code>.
     </td>
